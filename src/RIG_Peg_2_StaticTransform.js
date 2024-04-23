@@ -1,7 +1,7 @@
 /*
 	Peg To Static Transformation
 
-	Creates a series of Static Transformation modules from the selected Peg's keyframe values.
+	This Toon Boom Harmony shelf script creates a series of Static Transformation modules from the selected Peg's keyframe values.
 	By converting a Peg to Static modules, you can make the peg un-animatable and also immune to "Reset All Transfomations" function.
 	The Static modules will be connected to a Transformation Switch likewise deformer chains.
 	This way, each Static modules can be switched based on the selected drawing's cel timings.
@@ -18,8 +18,8 @@
 	2) Locate to your user scripts folder (a hidden folder):
 	   https://docs.toonboom.com/help/harmony-17/premium/scripting/import-script.html	
 	   
-	3) Add all unzipped files (*.js, and script-icons folder) directly to the folder above.
-	4) Add RIG_Peg_To_Static_Transformation to any toolbar.	
+	3) There is a folder named "src" inside the zip file. Copy all its contents directly to the folder above.
+	4) In Harmony, add RIG_Peg_To_Static_Transformation function to any toolbar.	
 
 	
 	Direction:
